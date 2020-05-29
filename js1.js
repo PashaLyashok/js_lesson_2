@@ -56,7 +56,26 @@ let day = 30,
 	seconds = minutes * 60;
 if(day > week & day > month & day < year) console.log('Меньше года');
 	else if (day < month & day < year) console.log('Меньше месяца');
-	else console.log ('Меньше недели'); */
+	else console.log ('Меньше недели'); 
+
+TASK 10 
+let day = 32,
+	month = '';
+if(day > 0 & day <= 30) month = 'Январь';
+	else if (day > 30 & day <= 60) month = 'Февраль';
+	else if (day > 60 & day <= 90) month = 'Март';
+	else if (day > 90 & day <= 120) month = 'Апрель';
+	else if (day > 120 & day <= 150) month = 'Май';
+	else if (day > 150 & day <= 180) month = 'Июнь';
+	else if (day > 180 & day <= 210) month = 'Июль';
+	else if (day > 210 & day <= 240) month = 'Август';
+	else if (day > 240 & day <= 270) month = 'Сентябрь';
+	else if (day > 270 & day <= 300) month = 'Октябрь';
+	else if (day > 300 & day <= 330) month = 'Ноябрь';
+	else if (day > 330 & day <= 365) month = 'Декабрь';
+	else console.log('Данное число не подходит!');
+console.log(month);*/
+
 
 
 
